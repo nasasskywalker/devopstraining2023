@@ -15,6 +15,7 @@ namespace CatalogAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Column("Catalog_Id")]
+	//CatalogId add length contraint by user3
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
         [Required]
