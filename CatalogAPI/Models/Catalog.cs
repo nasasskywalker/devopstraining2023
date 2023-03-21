@@ -15,6 +15,7 @@ namespace CatalogAPI.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         [Column("Catalog_Id")]
+	//rename CatalogId by user2
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
         [Required]
