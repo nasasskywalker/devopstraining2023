@@ -21,7 +21,7 @@ namespace CatalogAPI.Models
         [Required]
         [StringLength(50)]
 	//user3 modifying the code
-	// add additional constraint to catalogname
+	// add additional constraint to catalognames
         public string? CatalogName { get; set; }
 
         //[JsonIgnore]       
